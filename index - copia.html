@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Inicio</title>
+	<style type="text/css">
+		body
+		{
+			text-align: center;
+			background: black;
+		}
+	</style> 
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+	<script type="text/javascript" src="js/jquery.countdown.js"></script>
+	<script type="text/javascript">
+		$('#counter').countdown({
+			stepTime: 60,
+			format: 'hh:mm:ss',
+			startTime: "12:32:55",
+			digitImages: 6,
+			digitWidth: 53,
+			digitHeight: 77,
+			timerEnd: function() { alert('end!!'); },
+			image: "digits.png"
+			});
+	</script>
+</head>
+<body>
+	<section id="contenido">
+		<div id="counter"></div>
+	</section>
+	<!--<object type="application/x-shockwave-flash" data="http://www.oneplusyou.com/bb/files/countdown/countdown.swf?co=FFFCF4&bgcolor=000000&date_month=05&date_day=31&date_year=0&un=ESTAREMOS EN LINEA&size=normal&mo=05&da=31&yr=2014" width="250" height="80"><param name="movie" value="http://www.oneplusyou.com/bb/files/countdown/countdown.swf?co=FFFCF4&bgcolor=000000&date_month=05&date_day=31&date_year=0&un=ESTAREMOS EN LINEA&size=normal&mo=05&da=31&yr=2014" /><param name="bgcolor" value="#000000" /></object><img src="http://www.oneplusyou.com/q/img/bb_badges/countdown.jpg" alt="" style="display: none;" height="1" width="1" />-->
+
+
+<img src="img/2.jpg">
+</body>
+</html>
